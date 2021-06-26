@@ -1,4 +1,4 @@
 from django.http import HttpRequest,HttpResponse
 
-def hola(miparametrotipohttprequest):
+def hola(request):
     return HttpResponse("hola mundo")
